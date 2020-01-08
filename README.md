@@ -8,9 +8,9 @@ Before we get started with guestshell we'll need a test environment, one of the 
 
 Please note you are free to use this with your own hardware or test environment. However the commands in this lab guide have been tested for the sandboxes they correspond to. For this lab guide we will be using the reservable IOS XE on CSR Recommended Code Sandbox which can be found on the Sandbox catalogue https://devnetsandbox.cisco.com/RM/Topology
 
-**It's important to note that support for Guestshell and the resources available varies depending on the hardware platform and the software version running on the device. Please consult release documentation for up to date information about the level of the guestshell support your platform has.**
+**It's important to note that support for Guestshell and the resources available varies depending on the hardware platform and the software version running on the device. Please consult release documentation for up to date information about the level of the guestshell support the platform you're working with has.**
 
-## Exercise 0 - Enabling guestshell
+## Exercise 0 - Enabling Guestshell
 
 Cisco IOx is an end-to-end application enablement platform that provides application hosting capabilities. For more details on iox please refer to the pages on the DevNet site [here](https://developer.cisco.com/docs/ios-xe/#application-hosting-quick-start-guide). The CLI to enable the IOx application framework is displayed below:
 
