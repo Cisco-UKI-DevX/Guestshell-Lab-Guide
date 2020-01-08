@@ -65,7 +65,6 @@ Now lets take a look at the python script we're going to run which is under the 
 ```
 import cli
 print cli.execute('show ip route')
-
 ```
 
 Theres a couple of ways we can excecute this on the box. By far the easiest is to start is to enter into the python interpreter on our Guestshell environment and enter the code. 
