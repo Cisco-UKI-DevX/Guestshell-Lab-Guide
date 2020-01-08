@@ -16,7 +16,7 @@ Cisco DNA-C environment - Always-On
 
 Please note you are free to use this with your own hardware or test environment. However the commands in this lab guide have been tested for the sandboxes they correspond to. For this lab guide we will be using the reservable IOS XE on CSR Recommended Code Sandbox which can be found on the Sandbox catalogue https://devnetsandbox.cisco.com/RM/Topology
 
-**It's important to note that support for Guestshell and the resources available varies depending on the hardware platform and the software version running on the device. Please consult release documentation for up to date information about the level of the guestshell support your platform has.
+**It's important to note that support for Guestshell and the resources available varies depending on the hardware platform and the software version running on the device. Please consult release documentation for up to date information about the level of the guestshell support your platform has.**
 
 ## Exercise 0 - Enabling guestshell
 
