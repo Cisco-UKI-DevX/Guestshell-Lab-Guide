@@ -1,8 +1,6 @@
 # On box network programmability
 
-In this lab guide we'll be exploring some of the options we've got for On box programmability with IOS-XE. In this guide we'll primarily focus on using Guestshell. Guestshell is a virtualized Linux-based environment, designed to run custom Linux applications, including Python for automated control and management of Cisco devices. It also includes the automated provisioning (Day zero) of systems. This container shell provides a secure environment, decoupled from the host device, in which users can install scripts or software packages and run them.
-This module describes Guest Shell and how to enable it. This container shell provides a secure environment, decoupled from the host device, in which users can install scripts or software packages and run them.
-This module describes what Guest Shell is and how to get started with using it.
+In this lab guide we'll be exploring some of the options we've got for On-box programmability with IOS-XE. In this guide we'll primarily focus on using Guestshell. Guestshell is a virtualized Linux-based environment, designed to run custom Linux applications, including Python for automated control and management of Cisco devices. It also includes the automated provisioning (Day zero) of systems. This container shell provides a secure environment, decoupled from the host device, in which users can install scripts or software packages and run them independant from IOS.
 
 ## Prerequisites
 
@@ -17,6 +15,8 @@ Cisco SD-WAN environment - Always-On
 Cisco DNA-C environment - Always-On
 
 Please note you are free to use this with your own hardware or test environment. However the commands in this lab guide have been tested for the sandboxes they correspond to. For this lab guide we will be using the reservable IOS XE on CSR Recommended Code Sandbox which can be found on the Sandbox catalogue https://devnetsandbox.cisco.com/RM/Topology
+
+**It's important to note that support for Guestshell and the resources available varies depending on the hardware platform and the software version running on the device. Please consult release documentation for up to date information about the level of the guestshell support your platform has.
 
 ## Exercise 0 - Enabling guestshell
 
