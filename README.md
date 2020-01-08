@@ -6,14 +6,6 @@ In this lab guide we'll be exploring some of the options we've got for On-box pr
 
 Before we get started with guestshell we'll need a test environment, one of the easiest test environments you'll find is on the Cisco DevNet Sandbox which has multiple options. These are completely free and can in some cases be accessed within seconds. https://developer.cisco.com/docs/sandbox/#!overview/all-networking-sandboxes
 
-Most popular sandboxes include:
-
-IOS-XE (CSR) - Always-On
-IOS-CR - Always-On
-Multi IOS test environment (VIRL based) - Reservation required
-Cisco SD-WAN environment - Always-On
-Cisco DNA-C environment - Always-On
-
 Please note you are free to use this with your own hardware or test environment. However the commands in this lab guide have been tested for the sandboxes they correspond to. For this lab guide we will be using the reservable IOS XE on CSR Recommended Code Sandbox which can be found on the Sandbox catalogue https://devnetsandbox.cisco.com/RM/Topology
 
 **It's important to note that support for Guestshell and the resources available varies depending on the hardware platform and the software version running on the device. Please consult release documentation for up to date information about the level of the guestshell support your platform has.**
