@@ -4,7 +4,7 @@ In this lab guide we'll be exploring some of the options we've got for On box pr
 This module describes Guest Shell and how to enable it. This container shell provides a secure environment, decoupled from the host device, in which users can install scripts or software packages and run them.
 This module describes what Guest Shell is and how to get started with using it.
 
-## Step 0 - Enabling guestshell
+## Exercise 0 - Enabling guestshell
 
 Cisco IOx is an end-to-end application enablement platform that provides application hosting capabilities. For more details, see here. The CLI to enable the IOx application framework is displayed below:
 
@@ -45,6 +45,17 @@ OK, now it's time to drop into GuestShell. Here's an example:
 cat9k#guestshell
 [guestshell@guestshell ~]$
 ```
+
+## Exercise 1 - Running a simple python script with the CLI library
+
+In this first exercise we'll keep it as simple as it gets
+
+
+```
+cat9k#guestshell
+[guestshell@guestshell ~]$
+```
+
 
 ## Further examples
 
