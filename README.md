@@ -15,8 +15,8 @@ iox
 Is it really that easy? Only a single command? Starting with IOS XE 16.8 release you need to configure the Guestshell virtual interface as well:
 
 ``` 
-    app-hosting appid guestshell
-   vnic management guest-interface 0
+app-hosting appid guestshell
+ vnic management guest-interface 0
 ```
   
 You might be wondering "why do I need that??". This change will make more sense when GuestShell will have the option to access both the management port and front panel data ports. Stay tuned.
@@ -27,11 +27,7 @@ Guestshell is enabled with an exec command:
 ``` 
 guestshell enable 
 ```
-Be patient, it's spinning up a container. Here's an example:
-
-```
-cat9k#guestshell enable
-```
+This might take a minute or so be patient, it's spinning up a container. Here's an example:
 
 Management Interface will be selected if configured
 Please wait for completion
@@ -42,6 +38,13 @@ You'll see this when it finishes:
 ```
 Management Interface will be selected if configured
 Please wait for completion
+
+OK, now it's time to drop into GuestShell. Here's an example:
+
+```
+    cat9k#guestshell
+    [guestshell@guestshell ~]$
+```
 
 ## Further examples
 
