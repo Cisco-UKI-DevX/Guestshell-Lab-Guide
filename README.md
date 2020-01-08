@@ -54,7 +54,7 @@ cat9k#guestshell
 
 ## Exercise 1 - Running a simple python script with the CLI library
 
-In this first exercise we'll keep it as simple as it gets
+In this first exercise we'll keep it as simple as it gets we'll use a Python module called CLI, which from a Guestshell envrironment allows you to excecute and read cli commands on the host device. 
 
 
 ```
@@ -65,6 +65,6 @@ cat9k#guestshell
 
 ## Further examples
 
-The following guide has some example Python scripts for On-box network programmability.  
+The following repo has some example Python scripts for On-box network programmability. After these initial exercises you may want to explore these more to get a better understanding of some of the capabiltiies available to you from Guestshell
 
 https://github.com/CiscoDevNet/python_code_samples_network
