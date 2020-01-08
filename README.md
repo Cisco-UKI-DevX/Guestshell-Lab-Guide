@@ -42,8 +42,8 @@ Please wait for completion
 OK, now it's time to drop into GuestShell. Here's an example:
 
 ```
-    cat9k#guestshell
-    [guestshell@guestshell ~]$
+cat9k#guestshell
+[guestshell@guestshell ~]$
 ```
 
 ## Further examples
