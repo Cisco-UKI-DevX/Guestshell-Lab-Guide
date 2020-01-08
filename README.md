@@ -12,45 +12,41 @@ Please note you are free to use this with your own hardware or test environment.
 
 ## Exercise 0 - Enabling guestshell
 
-Cisco IOx is an end-to-end application enablement platform that provides application hosting capabilities. For more details, see here. The CLI to enable the IOx application framework is displayed below:
+Cisco IOx is an end-to-end application enablement platform that provides application hosting capabilities. For more details on iox please refer to the pages on the DevNet site [here](https://developer.cisco.com/docs/ios-xe/#application-hosting-quick-start-guide). The CLI to enable the IOx application framework is displayed below:
 
 ```
 iox 
 ```
  
-Is it really that easy? Only a single command? Starting with IOS XE 16.8 release you need to configure the Guestshell virtual interface as well:
+Starting with IOS XE 16.8 release you need to configure the Guestshell virtual interface as well. This isn't specifically required but will make more sense when GuestShell will have the option to access both the management port and front panel data ports. Keep your eyes peeled
 
 ``` 
 app-hosting appid guestshell
  vnic management guest-interface 0
 ```
-  
-You might be wondering "why do I need that??". This change will make more sense when GuestShell will have the option to access both the management port and front panel data ports. Stay tuned.
-exec
 
-Guestshell is enabled with an exec command:
+Finally,Guestshell is enabled with an exec command:
 
 ``` 
 guestshell enable 
 ```
-This might take a minute or so be patient, it's spinning up a container. Here's an example:
-
-Management Interface will be selected if configured
-Please wait for completion
-
-You'll see this when it finishes:
+This might take a minute or so be patient, it's spinning up a container on the device. When it finishes, you'll be met with the following message
 ```
  Guestshell enabled successfully
 ```
 Management Interface will be selected if configured
 Please wait for completion
 
-OK, now it's time to drop into GuestShell. Here's an example:
+OK, now it's time to drop into GuestShell. Use the commands like so below:
 
 ```
 cat9k#guestshell
 [guestshell@guestshell ~]$
 ```
+
+You'll now see we have full access to a Linux bash shell, this is our environment which we'll use in this lab guide. 
+
+If you'd like to see the entire process above on the box, why don't you watch the snazzy GIF bellow to see the process end to end.
 
 ## Exercise 1 - Running a simple python script with the CLI library
 
@@ -62,6 +58,7 @@ cat9k#guestshell
 [guestshell@guestshell ~]$
 ```
 
+Give yourself a pat on the back, you've just enabled and ran your first script on Guestshell.
 
 ## Further examples
 
