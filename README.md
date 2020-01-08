@@ -4,6 +4,44 @@ Guestshell is a virtualized Linux-based environment, designed to run custom Linu
 This module describes Guest Shell and how to enable it. This container shell provides a secure environment, decoupled from the host device, in which users can install scripts or software packages and run them.
 This module describes what Guest Shell is and how to get started with using it.
 
+## Step 0 - Enabling guestshell
+
+Cisco IOx is an end-to-end application enablement platform that provides application hosting capabilities. For more details, see here. The CLI to enable the IOx application framework is displayed below:
+
+```
+iox 
+```
+ 
+Is it really that easy? Only a single command? Starting with IOS XE 16.8 release you need to configure the Guestshell virtual interface as well:
+
+``` 
+    app-hosting appid guestshell
+   vnic management guest-interface 0
+```
+  
+You might be wondering "why do I need that??". This change will make more sense when GuestShell will have the option to access both the management port and front panel data ports. Stay tuned.
+exec
+
+Guestshell is enabled with an exec command:
+
+``` 
+guestshell enable 
+```
+Be patient, it's spinning up a container. Here's an example:
+
+```
+cat9k#guestshell enable
+```
+
+Management Interface will be selected if configured
+Please wait for completion
+
+You'll see this when it finishes:
+```
+ Guestshell enabled successfully
+```
+Management Interface will be selected if configured
+Please wait for completion
 
 ## Further examples
 
