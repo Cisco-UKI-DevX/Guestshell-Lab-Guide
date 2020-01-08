@@ -37,6 +37,8 @@ This might take a minute or so be patient, it's spinning up a container on the d
 Management Interface will be selected if configured
 Please wait for completion
 
+![](./images/guestshell-1.gif)
+
 OK, now it's time to drop into GuestShell. Use the commands like so below:
 
 ```
@@ -46,7 +48,8 @@ cat9k#guestshell
 
 You'll now see we have full access to a Linux bash shell, this is our environment which we'll use in this lab guide. 
 
-If you'd like to see the entire process above on the box, why don't you watch the snazzy GIF bellow to see the process end to end.
+![](./images/guestshell-2.gif)
+
 
 ## Exercise 1 - Running a simple python script with the CLI library
 
