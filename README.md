@@ -94,6 +94,9 @@ L        10.10.20.48/32 is directly connected, GigabitEthernet1
 >>> 
 ```
 
+![](./images/guestshell-3.gif)
+
+
 Alternatively we could also use a file server to copy the python executable across and run with the command below. Which would again, give the same output as above.
 
 ```
