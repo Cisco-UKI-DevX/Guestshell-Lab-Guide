@@ -1,5 +1,7 @@
 # On-box network programmability (Guestshell)
 
+When we build our automation scripts eventually we need a place to host them. In certain scenarios this may make sense to run on the network device itself, theres a few ways we can achieve this on IOS-XE including Guestshell and container hosting.
+
 In this lab guide we'll be exploring some of the options we've got for On-device programmability with IOS-XE. In this guide we'll primarily focus on using Guestshell. Guestshell is a virtualized Linux-based environment contained within a network device, designed to run custom Linux applications, including Python for automated control and management of Cisco devices. It also includes the automated provisioning (Day zero) of systems. This container shell provides a secure environment, decoupled from the host device, in which users can install scripts or software packages and run them independant from IOS.
 
 ## Prerequisites
