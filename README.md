@@ -1,3 +1,5 @@
+*This lab is part of a series of guides from the [Network Automation and Tooling workshop series](https://github.com/sttrayno/Network-Automation-Tooling)*
+
 # On-box network programmability (Guestshell)
 
 When we build our automation scripts eventually we need a place to host them. In certain scenarios this may make sense to run on the network device itself, theres a few ways we can achieve this on IOS-XE including Guestshell and container hosting.
