@@ -6,7 +6,7 @@ When we build our automation scripts eventually we need a place to host them. In
 
 In this lab guide we will be exploring some of the options we've got for On-device programmability with IOS-XE. We will primarily focus on using Guestshell. Guestshell is a virtualized Linux-based environment contained within a network device, designed to run custom Linux applications, including Python for automated control and management of Cisco devices. This container shell provides a secure environment, decoupled from the host device, in which users can install scripts or software packages and run them independent from IOS.
 
-You may have encountered Guestshell before if you've ever looked into (Zero Touch provisioning) ZTP which instructs a device to get an IP address from a network server, access a TFTP server and pull down a python script This script is then excecuted within a Guestshell to provision a network device within ZTP.
+You may have encountered Guestshell before if you've ever looked into (Zero Touch provisioning) ZTP which instructs a device to get an IP address from a DHCP server, using DHCP options it is then instructed to access a TFTP server and pull down a python script. This script is then excecuted within a Guestshell to provision a network device within ZTP.
 
 ## Prerequisites
 
